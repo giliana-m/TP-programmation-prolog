@@ -9,7 +9,7 @@ femme(sophie).
 parent(pierre, paul).
 parent(marie, paul).
 parent(marc, sophie).
-parent(paul, jacques).
+parent(jacques, pierre).
 parent(jacques, marc).
 
 
@@ -28,5 +28,7 @@ main :-
         parent(marc, sophie), write('Marc est le parent de Sophie.'), nl,  % Marc est-il le parent de Sophie ?
         pere(jacques, marc), write('Jacques est le père de Marc'), nl, % Qui est le père de Marc ?
         a_enfant(marc), write('Marc a des enfants'), nl, % Est-ce que Marc a des enfants ?
-        grandparent(pierre, jacques), write('Pierre est le grandparent de Jacques.'), nl
+        grandparent(jacques, paul), write('Jacques est le grandparent de Paul.'), nl
     ).
+    
+    
