@@ -6,7 +6,7 @@ femme(sophie).
 
 parent(pierre, paul).
 parent(marie, paul).
-parent(marie, sophie).
+parent(marc, sophie).
 
 pere(X, Y) :- homme(X), parent(X, Y).
 mere(X, Y) :- femme(X), parent(X, Y).
