@@ -27,8 +27,8 @@ main :-
         parent(marc, sophie), write('Marc est le parent de Sophie.'), nl,  % Marc est-il le parent de Sophie ?
         pere(jacques, marc), write('Jacques est le père de Marc'), nl, % Qui est le père de Marc ?
         a_enfant(marc), write('Marc a des enfants'), nl, % Est-ce que Marc a des enfants ?
-        grandparent(X, paul), write(X), write(' est le grandparent de '), write(paul), nl, fail 
-        ;   true % Qui est le grand-parent de Paul ?
+        grandparent(X, paul), write(X), write(' est le grandparent de '), write(paul), nl, fail ;   true,
+        grandparent(jacques, sophie), write('jacques est le grandparent de Sophie'), nl % Jacques est-il le grand-parent de Sophie ?
     ).
     
     
