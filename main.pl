@@ -1,12 +1,16 @@
 homme(pierre).
 homme(marc).
 homme(paul).
+homme(jacques).
 femme(marie).
 femme(sophie).
+
 
 parent(pierre, paul).
 parent(marie, paul).
 parent(marc, sophie).
+parent(jacques, marc).
+
 
 pere(X, Y) :- homme(X), parent(X, Y).
 mere(X, Y) :- femme(X), parent(X, Y).
