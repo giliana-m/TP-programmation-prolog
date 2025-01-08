@@ -41,5 +41,5 @@ main :-
         a_enfant(marc), write('Marc a des enfants'), nl, % Est-ce que Marc a des enfants ?
         grandparent(X, paul), write(X), write(' est le grandparent de Paul'), nl, % Qui est le grand père de Paul ?
         grandparent(jacques, sophie), write('jacques est le grandparent de Sophie'), nl, % Jacques est-il le grand-parent de Sophie ?
-        a_frere_soeur(paul), write('Paul a des frères et soeurs'), nl
+        a_frere_soeur(paul), write('Paul a des frères et soeurs'), nl % Paul a-t-il des frères ou des sœurs ?
     ).
