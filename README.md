@@ -1,1 +1,0 @@
-# TP-programmation-logique-prolog
