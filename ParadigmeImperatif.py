@@ -4,7 +4,7 @@ def saisir_donnees():
     noms = []  # Liste noms des étudiants
     notes = []  # Liste notes des étudiants
     
-    for i in range(n):
+    for i in range(n): #boucle qui se repete n fois
         nom = input(f"Nom de l’étudiant {i + 1} : ")  # nom de l'étudiant
         note = float(input(f"Note de {nom} : "))  # note de l'étudiant
         noms.append(nom)  # Ajoute nom à la liste
