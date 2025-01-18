@@ -1,4 +1,4 @@
-# TP-programmation-logique-prolog
+# TP-programmation-logique-prolog MARKANDU.G
 
 **INPUT** :  n = int(input("Combien d'étudiants souhaitez-vous saisir ? "))
 input("...") : permet d'afficher un message à l'utilisateur et de récupérer ce qu'il saisit sous forme de texte (chaîne de caractères).
