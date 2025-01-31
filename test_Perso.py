@@ -103,16 +103,20 @@ else:
     print("not ok")
 
 
-#exo mention jury fonctionne
+
+#exo mention jury
 note = float(input ("Veuillez saisir la note : "))
 
+if note > 20:
+    print(note, " : invalide ! ")
 if note >= 12 and note <= 13 :
     print(note, ": Bravo ! Mention Assez bien")
-if note >= 14 and note <= 15 :
+elif note >= 14 and note <= 15 :
     print(note, ": Bravo ! Mention Bien")
-if note >= 16 and note <= 17 :
+elif note >= 16 and note <= 17 :
     print(note, ": Bravo ! Mention Très Bien")
-if note >= 18 and note <=20 :
+elif note >= 18 and note <=20 :
     print(note, ": Bravo ! Félicitations du jury")
-
+elif note >=10 and note <=11 :
+    print(note, ": Admis.")
 
