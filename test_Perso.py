@@ -65,8 +65,22 @@ print(age, type(age))
 
 
 #Conversion Celsius en Fahrenheit
-Celsius_farenheit = float(input("degré ? "))
-Celsius_farenheit = Celsius_farenheit *9/5+ 32
-print(Celsius_farenheit)
+Celsius_fahrenheit = float(input("degré ? "))
+Celsius_fahrenheit = Celsius_fahrenheit *9/5+ 32
+print(Celsius_fahrenheit)
+
+
+
+#mot de passe
+mot_de_passe = input("Quel est votre mot de passe ?")
+
+if mot_de_passe == '123456':
+    print(" Valide")
+else:
+    print("Invalide")
+
+print("fin du programme")
+
+
 
 
