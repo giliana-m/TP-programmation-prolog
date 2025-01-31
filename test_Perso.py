@@ -112,6 +112,6 @@ if note >= 14 and note <= 15 :
         print("Mention Bien")
 if note >= 16 and note <= 17 :
     print("Mention Très Bien")
-if note >= 18 and note > 18 :
+if note >= 18 and note <= 20 :
     print("Félicitations du jury")
 
