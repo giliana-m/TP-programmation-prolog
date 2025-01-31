@@ -82,5 +82,25 @@ else:
 print("fin du programme")
 
 
+#palindrome fonctionne
+mot = str (input("quel mot ? "))
+inverse = ""
+for i in range (len(mot)-1, -1, -1):
+    inverse += mot[i]
+if mot == inverse:
+    print ("ok")
+else:
+    print("not ok")
+
+#palindrome fonctionne
+mot = str (input("quel mot ? "))
+inverse = ""
+for i in range (len(mot)-1, -1, -1):
+    inverse =  inverse + mot[i]
+if mot == inverse:
+    print ("ok")
+else:
+    print("not ok")
+
 
 
