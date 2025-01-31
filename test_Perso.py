@@ -107,11 +107,12 @@ else:
 note = float(input ("Veuillez saisir la note : "))
 
 if note >= 12 and note <= 13 :
-    print("Mention Assez bien")
+    print(note, ": Bravo ! Mention Assez bien")
 if note >= 14 and note <= 15 :
-        print("Mention Bien")
+    print(note, ": Bravo ! Mention Bien")
 if note >= 16 and note <= 17 :
-    print("Mention Très Bien")
-if note >= 18 and note <= 20 :
-    print("Félicitations du jury")
+    print(note, ": Bravo ! Mention Très Bien")
+if note >= 18 and note <=20 :
+    print(note, ": Bravo ! Félicitations du jury")
+
 
