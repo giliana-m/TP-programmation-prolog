@@ -1,3 +1,5 @@
+#Exercice 1 
+
 #Question 1
 
 def addToEach(n, list):
