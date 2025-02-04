@@ -20,3 +20,8 @@ squares = list(map(carré, numbers))
 
 print(squares)  #résultat sera : [1, 4, 9, 16, 25]
 
+
+#Somme
+somme = lambda a, b: a + b
+print(somme(2, 6))  #résultat : 8
+
